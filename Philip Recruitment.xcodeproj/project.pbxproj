@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0D37BB28C79E170097638A /* Philip_RecruitmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37BA28C79E170097638A /* Philip_RecruitmentApp.swift */; };
+		DE0D37BD28C79E170097638A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37BC28C79E170097638A /* ContentView.swift */; };
+		DE0D37BF28C79E180097638A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0D37BE28C79E180097638A /* Assets.xcassets */; };
+		DE0D37C228C79E180097638A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0D37C128C79E180097638A /* Preview Assets.xcassets */; };
+		DE0D37CC28C79E180097638A /* Philip_RecruitmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37CB28C79E180097638A /* Philip_RecruitmentTests.swift */; };
+		DE0D37D628C79E180097638A /* Philip_RecruitmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37D528C79E180097638A /* Philip_RecruitmentUITests.swift */; };
+		DE0D37D828C79E180097638A /* Philip_RecruitmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37D728C79E180097638A /* Philip_RecruitmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0D37C828C79E180097638A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0D37AF28C79E170097638A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0D37B628C79E170097638A;
+			remoteInfo = "Philip Recruitment";
+		};
+		DE0D37D228C79E180097638A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0D37AF28C79E170097638A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0D37B628C79E170097638A;
+			remoteInfo = "Philip Recruitment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0D37B728C79E170097638A /* Philip Recruitment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Philip Recruitment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0D37BA28C79E170097638A /* Philip_RecruitmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philip_RecruitmentApp.swift; sourceTree = "<group>"; };
+		DE0D37BC28C79E170097638A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE0D37BE28C79E180097638A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0D37C128C79E180097638A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE0D37C728C79E180097638A /* Philip RecruitmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Philip RecruitmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0D37CB28C79E180097638A /* Philip_RecruitmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philip_RecruitmentTests.swift; sourceTree = "<group>"; };
+		DE0D37D128C79E180097638A /* Philip RecruitmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Philip RecruitmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0D37D528C79E180097638A /* Philip_RecruitmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philip_RecruitmentUITests.swift; sourceTree = "<group>"; };
+		DE0D37D728C79E180097638A /* Philip_RecruitmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philip_RecruitmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0D37B428C79E170097638A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D37C428C79E180097638A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D37CE28C79E180097638A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0D37AE28C79E170097638A = {
+			isa = PBXGroup;
+			children = (
+				DE0D37B928C79E170097638A /* Philip Recruitment */,
+				DE0D37CA28C79E180097638A /* Philip RecruitmentTests */,
+				DE0D37D428C79E180097638A /* Philip RecruitmentUITests */,
+				DE0D37B828C79E170097638A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0D37B828C79E170097638A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D37B728C79E170097638A /* Philip Recruitment.app */,
+				DE0D37C728C79E180097638A /* Philip RecruitmentTests.xctest */,
+				DE0D37D128C79E180097638A /* Philip RecruitmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0D37B928C79E170097638A /* Philip Recruitment */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D37BA28C79E170097638A /* Philip_RecruitmentApp.swift */,
+				DE0D37BC28C79E170097638A /* ContentView.swift */,
+				DE0D37BE28C79E180097638A /* Assets.xcassets */,
+				DE0D37C028C79E180097638A /* Preview Content */,
+			);
+			path = "Philip Recruitment";
+			sourceTree = "<group>";
+		};
+		DE0D37C028C79E180097638A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D37C128C79E180097638A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE0D37CA28C79E180097638A /* Philip RecruitmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D37CB28C79E180097638A /* Philip_RecruitmentTests.swift */,
+			);
+			path = "Philip RecruitmentTests";
+			sourceTree = "<group>";
+		};
+		DE0D37D428C79E180097638A /* Philip RecruitmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D37D528C79E180097638A /* Philip_RecruitmentUITests.swift */,
+				DE0D37D728C79E180097638A /* Philip_RecruitmentUITestsLaunchTests.swift */,
+			);
+			path = "Philip RecruitmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0D37B628C79E170097638A /* Philip Recruitment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0D37DB28C79E180097638A /* Build configuration list for PBXNativeTarget "Philip Recruitment" */;
+			buildPhases = (
+				DE0D37B328C79E170097638A /* Sources */,
+				DE0D37B428C79E170097638A /* Frameworks */,
+				DE0D37B528C79E170097638A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Philip Recruitment";
+			productName = "Philip Recruitment";
+			productReference = DE0D37B728C79E170097638A /* Philip Recruitment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0D37C628C79E180097638A /* Philip RecruitmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0D37DE28C79E180097638A /* Build configuration list for PBXNativeTarget "Philip RecruitmentTests" */;
+			buildPhases = (
+				DE0D37C328C79E180097638A /* Sources */,
+				DE0D37C428C79E180097638A /* Frameworks */,
+				DE0D37C528C79E180097638A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0D37C928C79E180097638A /* PBXTargetDependency */,
+			);
+			name = "Philip RecruitmentTests";
+			productName = "Philip RecruitmentTests";
+			productReference = DE0D37C728C79E180097638A /* Philip RecruitmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0D37D028C79E180097638A /* Philip RecruitmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0D37E128C79E180097638A /* Build configuration list for PBXNativeTarget "Philip RecruitmentUITests" */;
+			buildPhases = (
+				DE0D37CD28C79E180097638A /* Sources */,
+				DE0D37CE28C79E180097638A /* Frameworks */,
+				DE0D37CF28C79E180097638A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0D37D328C79E180097638A /* PBXTargetDependency */,
+			);
+			name = "Philip RecruitmentUITests";
+			productName = "Philip RecruitmentUITests";
+			productReference = DE0D37D128C79E180097638A /* Philip RecruitmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0D37AF28C79E170097638A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DE0D37B628C79E170097638A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DE0D37C628C79E180097638A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DE0D37B628C79E170097638A;
+					};
+					DE0D37D028C79E180097638A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DE0D37B628C79E170097638A;
+					};
+				};
+			};
+			buildConfigurationList = DE0D37B228C79E170097638A /* Build configuration list for PBXProject "Philip Recruitment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0D37AE28C79E170097638A;
+			productRefGroup = DE0D37B828C79E170097638A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0D37B628C79E170097638A /* Philip Recruitment */,
+				DE0D37C628C79E180097638A /* Philip RecruitmentTests */,
+				DE0D37D028C79E180097638A /* Philip RecruitmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0D37B528C79E170097638A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0D37C228C79E180097638A /* Preview Assets.xcassets in Resources */,
+				DE0D37BF28C79E180097638A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D37C528C79E180097638A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D37CF28C79E180097638A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0D37B328C79E170097638A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0D37BD28C79E170097638A /* ContentView.swift in Sources */,
+				DE0D37BB28C79E170097638A /* Philip_RecruitmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D37C328C79E180097638A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0D37CC28C79E180097638A /* Philip_RecruitmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D37CD28C79E180097638A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0D37D628C79E180097638A /* Philip_RecruitmentUITests.swift in Sources */,
+				DE0D37D828C79E180097638A /* Philip_RecruitmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0D37C928C79E180097638A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0D37B628C79E170097638A /* Philip Recruitment */;
+			targetProxy = DE0D37C828C79E180097638A /* PBXContainerItemProxy */;
+		};
+		DE0D37D328C79E180097638A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0D37B628C79E170097638A /* Philip Recruitment */;
+			targetProxy = DE0D37D228C79E180097638A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE0D37D928C79E180097638A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE0D37DA28C79E180097638A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0D37DC28C79E180097638A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Philip Recruitment/Preview Content\"";
+				DEVELOPMENT_TEAM = XYCHZK7XK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JAW.Philip-Recruitment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0D37DD28C79E180097638A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Philip Recruitment/Preview Content\"";
+				DEVELOPMENT_TEAM = XYCHZK7XK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JAW.Philip-Recruitment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE0D37DF28C79E180097638A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XYCHZK7XK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JAW.Philip-RecruitmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Philip Recruitment.app/Philip Recruitment";
+			};
+			name = Debug;
+		};
+		DE0D37E028C79E180097638A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XYCHZK7XK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JAW.Philip-RecruitmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Philip Recruitment.app/Philip Recruitment";
+			};
+			name = Release;
+		};
+		DE0D37E228C79E180097638A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XYCHZK7XK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JAW.Philip-RecruitmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Philip Recruitment";
+			};
+			name = Debug;
+		};
+		DE0D37E328C79E180097638A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XYCHZK7XK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JAW.Philip-RecruitmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Philip Recruitment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0D37B228C79E170097638A /* Build configuration list for PBXProject "Philip Recruitment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0D37D928C79E180097638A /* Debug */,
+				DE0D37DA28C79E180097638A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0D37DB28C79E180097638A /* Build configuration list for PBXNativeTarget "Philip Recruitment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0D37DC28C79E180097638A /* Debug */,
+				DE0D37DD28C79E180097638A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0D37DE28C79E180097638A /* Build configuration list for PBXNativeTarget "Philip RecruitmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0D37DF28C79E180097638A /* Debug */,
+				DE0D37E028C79E180097638A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0D37E128C79E180097638A /* Build configuration list for PBXNativeTarget "Philip RecruitmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0D37E228C79E180097638A /* Debug */,
+				DE0D37E328C79E180097638A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE0D37AF28C79E170097638A /* Project object */;
+}
