@@ -14,6 +14,16 @@
 		DE0D37CC28C79E180097638A /* Philip_RecruitmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37CB28C79E180097638A /* Philip_RecruitmentTests.swift */; };
 		DE0D37D628C79E180097638A /* Philip_RecruitmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37D528C79E180097638A /* Philip_RecruitmentUITests.swift */; };
 		DE0D37D828C79E180097638A /* Philip_RecruitmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37D728C79E180097638A /* Philip_RecruitmentUITestsLaunchTests.swift */; };
+		DE0D37E828C79E560097638A /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37E728C79E560097638A /* Stocks.swift */; };
+		DE0D37EA28C7ABFF0097638A /* RunningTradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37E928C7ABFF0097638A /* RunningTradeView.swift */; };
+		DE0D37EC28C7AC340097638A /* RunningTradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D37EB28C7AC340097638A /* RunningTradeViewModel.swift */; };
+		DEE8C99528C7C439007410A8 /* NavigationBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8C99428C7C439007410A8 /* NavigationBarExtensions.swift */; };
+		DEE8C99828C83054007410A8 /* FilterToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8C99728C83054007410A8 /* FilterToggle.swift */; };
+		DEE8C99B28C83693007410A8 /* HalfASheet in Frameworks */ = {isa = PBXBuildFile; productRef = DEE8C99A28C83693007410A8 /* HalfASheet */; };
+		DEE8C99D28C83C2F007410A8 /* StockFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8C99C28C83C2F007410A8 /* StockFilterButton.swift */; };
+		DEE8C99F28C83CA2007410A8 /* StockFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8C99E28C83CA2007410A8 /* StockFilterSheet.swift */; };
+		DEE8C9A128C83E12007410A8 /* FilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8C9A028C83E12007410A8 /* FilterBar.swift */; };
+		DEE8C9A328C849F2007410A8 /* AddStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8C9A228C849F2007410A8 /* AddStockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,15 @@
 		DE0D37D128C79E180097638A /* Philip RecruitmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Philip RecruitmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0D37D528C79E180097638A /* Philip_RecruitmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philip_RecruitmentUITests.swift; sourceTree = "<group>"; };
 		DE0D37D728C79E180097638A /* Philip_RecruitmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philip_RecruitmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE0D37E728C79E560097638A /* Stocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks.swift; sourceTree = "<group>"; };
+		DE0D37E928C7ABFF0097638A /* RunningTradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningTradeView.swift; sourceTree = "<group>"; };
+		DE0D37EB28C7AC340097638A /* RunningTradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningTradeViewModel.swift; sourceTree = "<group>"; };
+		DEE8C99428C7C439007410A8 /* NavigationBarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarExtensions.swift; sourceTree = "<group>"; };
+		DEE8C99728C83054007410A8 /* FilterToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterToggle.swift; sourceTree = "<group>"; };
+		DEE8C99C28C83C2F007410A8 /* StockFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFilterButton.swift; sourceTree = "<group>"; };
+		DEE8C99E28C83CA2007410A8 /* StockFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFilterSheet.swift; sourceTree = "<group>"; };
+		DEE8C9A028C83E12007410A8 /* FilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBar.swift; sourceTree = "<group>"; };
+		DEE8C9A228C849F2007410A8 /* AddStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE8C99B28C83693007410A8 /* HalfASheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +114,10 @@
 		DE0D37B928C79E170097638A /* Philip Recruitment */ = {
 			isa = PBXGroup;
 			children = (
+				DEE8C99328C7C425007410A8 /* Extensions */,
+				DE0D37E628C79E390097638A /* Model */,
+				DE0D37E528C79E2D0097638A /* ModelView */,
+				DE0D37E428C79E230097638A /* View */,
 				DE0D37BA28C79E170097638A /* Philip_RecruitmentApp.swift */,
 				DE0D37BC28C79E170097638A /* ContentView.swift */,
 				DE0D37BE28C79E180097638A /* Assets.xcassets */,
@@ -127,6 +151,51 @@
 			path = "Philip RecruitmentUITests";
 			sourceTree = "<group>";
 		};
+		DE0D37E428C79E230097638A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEE8C99628C8303D007410A8 /* Assets */,
+				DE0D37E928C7ABFF0097638A /* RunningTradeView.swift */,
+				DEE8C99E28C83CA2007410A8 /* StockFilterSheet.swift */,
+				DEE8C9A228C849F2007410A8 /* AddStockView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE0D37E528C79E2D0097638A /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D37EB28C7AC340097638A /* RunningTradeViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		DE0D37E628C79E390097638A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D37E728C79E560097638A /* Stocks.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEE8C99328C7C425007410A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DEE8C99428C7C439007410A8 /* NavigationBarExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DEE8C99628C8303D007410A8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DEE8C99728C83054007410A8 /* FilterToggle.swift */,
+				DEE8C99C28C83C2F007410A8 /* StockFilterButton.swift */,
+				DEE8C9A028C83E12007410A8 /* FilterBar.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +212,9 @@
 			dependencies = (
 			);
 			name = "Philip Recruitment";
+			packageProductDependencies = (
+				DEE8C99A28C83693007410A8 /* HalfASheet */,
+			);
 			productName = "Philip Recruitment";
 			productReference = DE0D37B728C79E170097638A /* Philip Recruitment.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +287,9 @@
 				Base,
 			);
 			mainGroup = DE0D37AE28C79E170097638A;
+			packageReferences = (
+				DEE8C99928C83693007410A8 /* XCRemoteSwiftPackageReference "HalfASheet" */,
+			);
 			productRefGroup = DE0D37B828C79E170097638A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +332,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE8C99D28C83C2F007410A8 /* StockFilterButton.swift in Sources */,
+				DEE8C9A128C83E12007410A8 /* FilterBar.swift in Sources */,
 				DE0D37BD28C79E170097638A /* ContentView.swift in Sources */,
+				DEE8C9A328C849F2007410A8 /* AddStockView.swift in Sources */,
+				DE0D37EA28C7ABFF0097638A /* RunningTradeView.swift in Sources */,
+				DE0D37EC28C7AC340097638A /* RunningTradeViewModel.swift in Sources */,
+				DEE8C99828C83054007410A8 /* FilterToggle.swift in Sources */,
+				DE0D37E828C79E560097638A /* Stocks.swift in Sources */,
 				DE0D37BB28C79E170097638A /* Philip_RecruitmentApp.swift in Sources */,
+				DEE8C99F28C83CA2007410A8 /* StockFilterSheet.swift in Sources */,
+				DEE8C99528C7C439007410A8 /* NavigationBarExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +667,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DEE8C99928C83693007410A8 /* XCRemoteSwiftPackageReference "HalfASheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/franklynw/HalfASheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DEE8C99A28C83693007410A8 /* HalfASheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEE8C99928C83693007410A8 /* XCRemoteSwiftPackageReference "HalfASheet" */;
+			productName = HalfASheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE0D37AF28C79E170097638A /* Project object */;
 }

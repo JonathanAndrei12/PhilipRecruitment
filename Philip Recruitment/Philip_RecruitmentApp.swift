@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Philip_RecruitmentApp: App {
+    init() {
+        autoFillStock()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RunningTradeView()
         }
     }
 }
